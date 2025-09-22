@@ -1,7 +1,6 @@
 import { useState } from "react";
 import './App.css';
 function App() {
-  const Passwords = ["123456789!@#$%^&*()_-=?/><.`~"];
   const [password, setPassword] = useState("");
   const changePassword = () => {
     const chars =
